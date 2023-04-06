@@ -7,8 +7,8 @@
 *
 * Copyright 2023 Ticks, Inc. All rights reserved. 
 **/
-#ifndef __LINUX_STUDY_PARSE_ARGS_PARSE_ARGS_H
-#define __LINUX_STUDY_PARSE_ARGS_PARSE_ARGS_H
+#ifndef __LINUX_STUDY_FILE_TOOL_PARSE_ARGS_H
+#define __LINUX_STUDY_FILE_TOOL_PARSE_ARGS_H
 
 #include <getopt.h>
 #include <type_traits>
@@ -250,4 +250,4 @@ private:
 }; // ParseArgs
 
 
-#endif // __LINUX_STUDY_PARSE_ARGS_PARSE_ARGS_H
+#endif // __LINUX_STUDY_FILE_TOOL_PARSE_ARGS_H
