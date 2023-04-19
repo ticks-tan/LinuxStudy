@@ -25,6 +25,7 @@ public:
     typedef unsigned char byte;
     typedef byte* bytePtr;
     typedef const bytePtr constBytePtr;
+
     friend class FileReader;
     friend class FileWriter;
     enum : int{

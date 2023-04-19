@@ -1,16 +1,14 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.14)
 
-project(parse_args)
+project(ParseArgs)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(
-        args_parse_test
+add_executable( ParseArgs
         src/main.cc
-)
+        )
 
-target_include_directories(
-        args_parse_test PUBLIC
-        ${CMAKE_SOURCE_DIR}/include
-)
+target_include_directories( ParseArgs PUBLIC
+        include
+        )
